@@ -1,0 +1,54 @@
+@media screen and (max-width:600px){
+    .collapse .navbar-nav .nav-item .nav-link{
+        padding: 10px;
+       color:white;
+       font-weight: 600;
+       background-color: rgb(191, 149, 149);
+    }
+    nav{
+        background-color: rgb(191,149,146);
+        color: white;
+    }
+    nav .container-fluid  a,button{
+        color: white;
+    }
+  
+    .header{
+        height: 400px;
+    }
+    .projects .row{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .projects .row .col .card{
+        height: 300px;
+        padding-bottom: 30px;
+        margin-bottom: -70px;
+       
+    }
+    .projects .inside-row{
+        margin-top: -100px;
+    }
+    .projects .row .col .card .card-body h1{
+        background-color:rgba(0, 0, 0, 0.514);
+        height: 40px;
+        padding: 5px;
+        width: 160px;
+        text-align: center;
+        color: white;
+        border-radius: none !important;
+    }
+    .about{
+        margin-top: 1400px; 
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact iframe{
+        height: 250px;
+        margin: 0;
+    }
+    
+}
